@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;;
+}
+nav{
+    background-color: transparent;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    margin: 15px;
+    color: rgb(234, 22, 64);
+    text-decoration: none;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    text-shadow: 2px 4px 6px rgb(122, 115, 115);
+    text-decoration: underline;
+}
+video{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+.overlay{
+    position: absolute;
+    top: 50%;
+    left: 60%;
+}
+h1{
+    color: beige;
+}
+h1:hover{
+    color: rgb(198, 165, 124);
+    text-shadow: 2px 4px 6px rgb(188, 198, 86) ;
+}
+span{
+    color: crimson;
+    font-size: 30px;
+}
+#home{
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+}
+#home::before{
+    content: "";
+    background-image: url(https://lamag.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:eco%2Cw_1200/MTk3NTU2MjY0MzU0ODUwNDk4/logan-paul-fast-runner-steven-ferdman-getty.jpg);
+    height: 100%;
+    background-size: cover;
+}
+.main{
+    border: 3px inset blueviolet;
+    padding: 10px;
+    display: flex;
+    position: absolute;
+    height: 70px;
+    left: 70%;
+    margin-top: 25%;
+    box-shadow: 2px 4px 6px black;
+}
+.main:hover{
+    scale: 1.03;
+}
+h3{
+    color: brown;
+    background-color: burlywood;
+    font-style: italic;
+    text-align: center;
+}
+.pic{
+    display: flex;
+}
+.pic img{
+    width: 400px;
+}
+.pic h4{
+    color:rgb(255, 0, 51);
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.pic p{
+    text-align: center;
+    margin: 10px;
+    font-size:20px ;
+}
+.gallery{
+    margin: 40px;
+    box-shadow: 2px 4px 6px blueviolet;
+}
+.gallery img{
+    width: 400px;
+    height: 200px;
+    margin: 5px;
+    margin-left: 55px;
+    padding: 5px;
+}
+.gallery img:hover{
+    scale: 1.05;
+}
+.row{
+    display: flex;
+    margin-top: 5px;
+}
+.box{
+    width: 400px;
+    height: 500px;
+    border: 3px ridge blueviolet;
+    margin: 5px;
+    align-items: center;
+    background: linear-gradient(rgb(242, 234, 234)50%,rgb(186, 128, 241)50%);
+    background-size: 100% 200%;
+    transition:all .60s;
+
+}
+.box:hover{
+    background-position: right bottom;
+    filter:drop-shadow(3px 4px 20px rgb(168, 80, 250));
+}
+
+.box img{
+    width: 350px;
+    padding: 10px;
+}
+.box p{
+    text-align: justify;
+    padding: 5px;
+}
+.box h5{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(95, 161, 248);
+    text-shadow: 2px 3px 4px rgb(19, 18, 18);
+}
+
+form{
+    width: 500px;
+    margin-left: 500px;
+}
+.input{
+    width: 100%;
+    margin: 10px;
+    padding: 5px;
+}
+button{
+    color: rgb(242, 238, 232);
+    background-color: black;
+    cursor: pointer;
+    padding: 5px;
+}
+.cv{
+    background-color: rgb(32, 177, 182);
+    text-decoration:none ;
+    color: black;
+    padding: 8px;
+    margin-left: 50%;
+    border-radius: 10%;
+}
+.intro{
+    height: 350px;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    margin-top: 7px;
+    padding: 3px;
+    border-radius: 10px;
+}
+.loc{
+    width: 100%;
+    height: 85%;
+    margin-top: 5px;
+}
+footer{
+    background-color: rgb(41, 134, 137);
+    height: 350px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+.last{
+    margin-top: 50%;
+    border-radius: 13px;
+}
+.tiloc{
+    margin-top: 6%;
+    border-radius: 13px;
+
+}
